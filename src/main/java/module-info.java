@@ -6,4 +6,6 @@ module com.example.billingapp {
 
     opens com.example.billingapp to javafx.fxml;
     exports com.example.billingapp;
+    exports com.example.billingapp.menuler;
+    opens com.example.billingapp.menuler to javafx.fxml;
 }
