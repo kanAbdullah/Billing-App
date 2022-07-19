@@ -49,9 +49,9 @@ public class UrunListeleMenu extends Application {
         pane.setVgap(5);
         // Place nodes in the pane
 
-        Urun faraziUrun1 = new Urun(10,"Cokonat",500);
-        Urun faraziUrun2 = new Urun(11,"Cokonat",500);
-        Urun faraziUrun3 = new Urun(12,"Cokonat",500);
+        Urun faraziUrun1 = new Urun("Cokonat",500);
+        Urun faraziUrun2 = new Urun("Cokonat",500);
+        Urun faraziUrun3 = new Urun("Cokonat",500);
 
         pane.getChildren().addAll(new Label(faraziUrun1.getIsim()),new Label("" + faraziUrun1.getId()),new Label("" + faraziUrun1.getMiktar()));
         TextField tfMi = new TextField();
